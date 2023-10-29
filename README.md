@@ -12,9 +12,9 @@ Given a binary tree represented as an array, it prints the tree in a friendly AS
  ^   ^
 2 8 1
 ```
-
-The 
 ## Known limitations
+If the results are displayed using a non-monospaced font (aka the characters don't have the same width), then switch to a monospaced one such as `Consolas`. If you're using LinqPAD see this https://forum.linqpad.net/discussion/1150/how-do-i-get-monospaced-results
+
 The code takes the number of digits of the node values into account and adjust the padding required to obtain the ASCII output accordingly. However, if the value of an edge node is larger than 2 digits then the rest of the edge nodes will be incorrectly padded. For the other non-edge nodes, similarly if their values are too long there will also be padding errors.
 
 ## How does it work?
